@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    background-color: rgb(10, 78, 78);
+    height: 80vh;
+    border-radius: 3px;
+   margin: 20px;
+    border: 1px solid black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+h1:hover{
+    color: beige;
+    cursor: pointer;
+}
+.sign{
+    margin-left: 20px;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px ;
+    padding: 8px;
+    width: 600px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(66, 66, 220);
+}
+.button:hover{
+    cursor: pointer;
+
+
+}
+textarea{
+    padding-left: 10px;
+    padding-top:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
